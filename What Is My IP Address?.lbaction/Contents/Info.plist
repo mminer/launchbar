@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIconFile</key>
+	<string>font-awesome:map-marker</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.matthewminer.LaunchBar.action.WhatIsMyIPAddress</string>
+	<key>CFBundleName</key>
+	<string>What Is My IP Address?</string>
+	<key>CFBundleVersion</key>
+	<string>1.0.0</string>
+	<key>LBAbbreviation</key>
+	<string>IP</string>
+	<key>LBDescription</key>
+	<dict>
+		<key>LBAuthor</key>
+		<string>Matthew Miner</string>
+		<key>LBEmail</key>
+		<string>matthew@matthewminer.com</string>
+		<key>LBRequirements</key>
+		<string>Active Internet connection.</string>
+		<key>LBResult</key>
+		<string>IP Address</string>
+		<key>LBSummary</key>
+		<string>A LaunchBar action to get your external IP address.</string>
+		<key>LBTwitter</key>
+		<string></string>
+		<key>LBWebsiteURL</key>
+		<string>http://matthewminer.com</string>
+	</dict>
+	<key>LBRequirements</key>
+	<string>Active Internet connection.</string>
+	<key>LBResult</key>
+	<string>IP Address</string>
+	<key>LBScripts</key>
+	<dict>
+		<key>LBDefaultScript</key>
+		<dict>
+			<key>LBKeepWindowActive</key>
+			<true/>
+			<key>LBResultType</key>
+			<string>string</string>
+			<key>LBReturnsResult</key>
+			<true/>
+			<key>LBScriptName</key>
+			<string>default.sh</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
